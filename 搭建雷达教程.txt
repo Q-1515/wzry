@@ -18,13 +18,13 @@ java项目-添加项目-添加jdk信息-jdk1.8.0_371
 然后点左侧网站-java项目-添加项目
 
 项目路径
-/www/wwwroot/117.72.112.31/home-server-0.0.1-SNAPSHOT.jar
+/www/wwwroot/你的服务器ip/home-server-0.0.1-SNAPSHOT.jar
 
 /www/server/java/jdk1.8.0_371/bin/java -jar  -Xmx1024M -Xms256M /www/wwwroot/117.72.112.31/home-server-0.0.1-SNAPSHOT.jar
 
-点取消 只要项目启动命令
+点取消 只需要获得项目启动命令
 
-其他项目-添加项目-项目执行文件/www/wwwroot/117.72.112.31/home-server-0.0.1-SNAPSHOT.jar
+其他项目-添加项目-项目执行文件/www/wwwroot/你的服务器ip/home-server-0.0.1-SNAPSHOT.jar
 
 项目端口8888
 
