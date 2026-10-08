@@ -42,7 +42,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/Q-1515/wzry:latest
+            ghcr.io/q-1515/wzry:latest
             ghcr.io/q-1515/wzry:${{ github.sha }}
       - name: Log in to Docker Hub (optional)
         if: ${{ env.DOCKERHUB_USERNAME != '' && env.DOCKERHUB_TOKEN != '' }}
